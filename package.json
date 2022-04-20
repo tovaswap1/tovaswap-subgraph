@@ -3,8 +3,8 @@
   "description": "PancakeSwap Subgraph",
   "version": "2.0.0",
   "private": true,
-  "repository": "git@github.com:pancakeswap/pancake-subgraph.git",
-  "author": "PancakeSwap",
+  "repository": "git@github.com:tovaswap1/tovaswap-subgraph.git",
+  "author": "TovaSwap",
   "license": "GPL-3.0-or-later",
   "workspaces": [
     "subgraphs/**/*"
@@ -20,8 +20,8 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@graphprotocol/graph-cli": "^0.21.0",
-    "@graphprotocol/graph-ts": "^0.20.0",
+    "@graphprotocol/graph-cli": "0.18.0", 
+    "@graphprotocol/graph-ts": "0.18.0",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
     "eslint": "^7.32.0",
