@@ -8,6 +8,6 @@
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ tovaswap1/blocks subgraph.yaml"
+    "deploy": "graph deploy --product hosted-service --access-token 1b541f2bfe6e4a88b9c2cf4025c60eb6 --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ tovaswap1/blocks subgraph.yaml"
   }
 }
