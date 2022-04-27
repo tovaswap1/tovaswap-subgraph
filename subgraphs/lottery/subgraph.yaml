@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: PancakeSwap Lottery
-repository: https://github.com/pancakeswap
+description: TovaSwap Lottery
+repository: https://github.com/tovaswap1
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Lottery
     network: bsc
     source:
-      address: '0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c'
+      address: '0xA6a39223672bF94BF19F1BAadC9aE72100d201c1'
       abi: Lottery
-      startBlock: 8796011
+      startBlock: 17267614
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
